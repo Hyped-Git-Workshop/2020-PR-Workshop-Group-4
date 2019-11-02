@@ -28,9 +28,9 @@ double Pod::getMaxSpeed()
     return max_speed_;
 }
 
-void Pod::decreaseSpeedBy10()
+void Pod::decreaseSpeedBy20()
 {
-  max_speed_ -= 10;
+  max_speed_ -= 20;
 }
 
 void Pod::increaseSpeedBy10()
